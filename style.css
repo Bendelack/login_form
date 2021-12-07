@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(80, 24, 170);
+}
+
+form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    display: table;
+    margin: auto;
+    transform: translateY(50%);
+}
+fieldset{
+    border: none;
+}
+
+.div{
+    display: block;
+    margin-bottom: 1em;
+}
+
+h2{
+    margin-bottom: 1em;
+}
+
+label{
+    margin: 1em;
+}
+
+.text{
+    border-radius: 14px;
+    padding: 1em;
+    border: 0.1em solid rgb(0, 0, 0);
+}
+
+label[for="email"]{
+    display: inline-block;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: rgb(0,0,0);
+    border-radius: 14px;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+    width: 100%;
+}
+
+.text:focus-visible{
+    background-color: rgb(225, 225, 225);
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    border: 1px solid rgb(225, 225, 225);
+}
